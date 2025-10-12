@@ -10,14 +10,16 @@
     <body>
         <main>
             <h1>Is it a Palindrome?</h1>
+            
+            <div id="palindrome-checker-container" class="palindrome-checker__container">
+                <form id="palindrome-checker-form" class="palindrome-checker__form">
+                    <p>Enter in text to check for a palindrome:</p>
+                    <input type="text" id="text-input" class="palindrome-checker__input" required>
+                    <button type="submit" id="check-btn" class="palindrome-checker__button">Check</button>
+                </form>
 
-            <form id="palindrome-checker-form" class="palindrome-checker__form">
-                <p>Enter in text to check for a palindrome:</p>
-                <input type="text" id="palindrome-input" class="palindrome-checker__input" required>
-                <button type="submit" class="palindrome-checker__button">Check</button>
-            </form>
-
-
+                <p id="result"></p>
+            </div>
         </main>
 
         <script src="script.js"></script>
